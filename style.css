@@ -6,6 +6,7 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
 }
 
 .links {
@@ -13,20 +14,30 @@ body {
     list-style: none;
     gap: 16px;
     align-items: center;
+    justify-content: right;
+    margin-bottom: 100px;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
+    margin-bottom: 50px;
 }
 
 .header-right {
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 .header-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.main-sec-button {
     display: flex;
     flex-direction: column;
 }
@@ -44,17 +55,18 @@ body {
 
 .sign-up {
     background-color: #3882F6;
-
+    max-width: 90px;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 .placeholder {
     display: flex;
     background-color: gray;
-        font-size: 18px;
+    font-size: 18px;
     color: #E5E7EB;
     text-align: center;
     align-items: center;
-    padding: 72px;
 }
 
 .content {
