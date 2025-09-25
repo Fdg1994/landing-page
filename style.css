@@ -46,18 +46,22 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 0;
 }
 
 .hero-sec-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 0;
 }
 
 .sign-up {
     background-color: #3882F6;
-    max-width: 90px;
+    color: white;
+    min-width: 110px;
     padding: 8px;
     border-radius: 8px;
+    font-weight: bolder;
 }
 
 .content {
@@ -70,21 +74,22 @@ body {
 .content-ill-subtxt {
     display: flex;
     justify-content: center;
-    gap: 48px;
+    gap: 54px;
     padding-bottom: 100px;
 }
 
 .virtual-placeholder {
     display:block;
-    height:200px;
-    width:200px;
-    background:#eee;
-    border: 5px solid #3882F6;
+    height:150px;
+    width:150px;
+    background: white;
+    border: 3px solid #3882F6;
     border-radius: 20px;
 }
 
 .subtext {
-    max-width: 200px;
+    max-width: 150px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -101,18 +106,59 @@ body {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
+    padding-left: 650px;
+    padding-right: 650px;
 }
 
 .quoter {
     display: flex;
     font-weight: bolder;
     justify-content: right;
+    padding-right: 50px;
+    padding-top: 50px;
     font-style: normal;
     font-weight: bolder;
 }
 
 .footer {
-    background-color: #E5E7EB;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    gap: 200px;
+    min-width: 700px;
+    min-height: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white; 
+    text-align: left;
+}
+
+.sign-up2 {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    max-height: 40px;
+    min-width: 100px;
+    padding: 8px;
+    border-radius: 8px;
+    margin: auto 0;
+    border-style:solid;
+    font-weight: bolder;
+    justify-content: center;
 }
 
 a {
